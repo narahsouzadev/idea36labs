@@ -1,49 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Idea Count</title>
-    <style>
-        img {
-            max-width: 100%;
-            width: 48px;
-            height: auto;
-            border-radius: 8px;
-            display: block;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #202124;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            background-color: #ffffff;
-        }
-        h1 { color: #ffbf00; font-size: 28px; }
-        h2 { font-size: 20px; margin-top: 24px; }
-        .subtitle { color: #5f6368; font-size: 14px; margin-bottom: 32px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Privacy Policy — Idea Count · Idea36 Labs</title>
+  <meta name="description" content="Privacy Policy for Idea Count by Idea36 Labs. The app does not collect, store or share any personal data.">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+          },
+          colors: {
+            amber: {
+              300: '#FFD54F',
+              400: '#FFC107',
+              500: '#FFB300',
+            },
+          },
+        },
+      },
+    }
+  </script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
-<body>
-    <img src="../assets/images/app_icon.png" alt="Idea Count app icon">
-    <h1>Idea Count</h1>
-    <h2>Privacy Policy</h2>
-    <p class="subtitle">Last updated: August 12, 2026</p>
 
-    <p>The <strong>Idea36 Labs</strong> studio developed the <strong>Idea Count</strong> app as a free app. This service is provided at no cost and is intended for use as is.</p>
+<body class="bg-white text-neutral-900 min-h-screen flex flex-col font-sans antialiased">
 
-    <h2>1. Information Collection and Use</h2>
-    <p>The Idea Count app <strong>does not collect, store, transmit, or share</strong> any kind of personal or user identification data. All your counting data is saved exclusively locally on your own device.</p>
+  <!-- ═══════════════════════════════════════
+       NAVBAR
+  ════════════════════════════════════════ -->
+  <nav class="w-full border-b border-neutral-100 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-6 h-14 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center gap-2.5 group" aria-label="Idea36 Labs — home">
+        <img src="../assets/images/idea36labs_logo.png" alt="Idea36 Labs"
+          class="w-7 h-7 object-contain drop-shadow-sm group-hover:opacity-90 transition-opacity">
+        <span class="font-bold text-neutral-950 text-sm tracking-tight">Idea36 Labs</span>
+      </a>
+      <a href="../index.html#apps" class="text-sm font-medium text-neutral-500 hover:text-neutral-950 transition-colors">
+        Apps
+      </a>
+    </div>
+  </nav>
 
-    <h2>2. Device Permissions</h2>
-    <p>The app does not request sensitive permissions (such as access to camera, location, contacts, or media files).</p>
+  <!-- ═══════════════════════════════════════
+       PAGE HEADER
+  ════════════════════════════════════════ -->
+  <header class="border-b border-neutral-100 bg-neutral-50">
+    <div class="max-w-4xl mx-auto px-6 py-12">
+      <div class="flex items-center gap-5">
+        <!-- App icon -->
+        <img src="../assets/images/ideacount_logo.png" alt="Idea Count"
+          class="w-14 h-14 object-contain rounded-2xl shadow-sm border border-neutral-200/60 bg-white shrink-0">
+        <div>
+          <p class="text-xs font-semibold tracking-[0.2em] text-amber-500 uppercase mb-1">Idea Count</p>
+          <h1 class="text-2xl sm:text-3xl font-black tracking-tight text-neutral-950">Privacy Policy</h1>
+        </div>
+      </div>
+      <p class="mt-4 text-sm text-neutral-400 font-medium">Last updated: August 12, 2026</p>
+    </div>
+  </header>
 
-    <h2>3. Advertisements and Third-Party Services</h2>
-    <p><strong>Idea Count</strong> does not display ads nor does it use third-party services that track user data.</p>
+  <!-- ═══════════════════════════════════════
+       CONTENT
+  ════════════════════════════════════════ -->
+  <main class="flex-1">
+    <div class="max-w-4xl mx-auto px-6 py-14">
 
-    <h2>4. Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us by email: <strong>contato@idea36labs.com</strong>.</p>
+      <!-- Intro -->
+      <p class="text-base text-neutral-600 leading-relaxed max-w-2xl">
+        The <strong class="text-neutral-950 font-semibold">Idea36 Labs</strong> studio developed the
+        <strong class="text-neutral-950 font-semibold">Idea Count</strong> app as a free app. This service is provided
+        at no cost and is intended for use as is.
+      </p>
+
+      <!-- Divider -->
+      <div class="my-10 h-px bg-neutral-100"></div>
+
+      <!-- Sections -->
+      <div class="space-y-10">
+
+        <!-- Section 1 -->
+        <section aria-labelledby="section-data">
+          <div class="flex items-start gap-4">
+            <!-- Number accent -->
+            <span class="shrink-0 w-8 h-8 rounded-full bg-amber-400 flex items-center justify-center text-xs font-black text-neutral-950 mt-0.5" aria-hidden="true">1</span>
+            <div>
+              <h2 id="section-data" class="text-lg font-bold text-neutral-950 mb-2">Information Collection and Use</h2>
+              <p class="text-neutral-600 leading-relaxed">
+                The Idea Count app <strong class="text-neutral-950 font-semibold">does not collect, store, transmit, or share</strong> any kind of personal or user identification data. All your counting data is saved exclusively locally on your own device.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section aria-labelledby="section-permissions">
+          <div class="flex items-start gap-4">
+            <span class="shrink-0 w-8 h-8 rounded-full bg-amber-400 flex items-center justify-center text-xs font-black text-neutral-950 mt-0.5" aria-hidden="true">2</span>
+            <div>
+              <h2 id="section-permissions" class="text-lg font-bold text-neutral-950 mb-2">Device Permissions</h2>
+              <p class="text-neutral-600 leading-relaxed">
+                The app does not request sensitive permissions (such as access to camera, location, contacts, or media files).
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section aria-labelledby="section-ads">
+          <div class="flex items-start gap-4">
+            <span class="shrink-0 w-8 h-8 rounded-full bg-amber-400 flex items-center justify-center text-xs font-black text-neutral-950 mt-0.5" aria-hidden="true">3</span>
+            <div>
+              <h2 id="section-ads" class="text-lg font-bold text-neutral-950 mb-2">Advertisements and Third-Party Services</h2>
+              <p class="text-neutral-600 leading-relaxed">
+                <strong class="text-neutral-950 font-semibold">Idea Count</strong> does not display ads nor does it use third-party services that track user data.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 4 -->
+        <section aria-labelledby="section-contact">
+          <div class="flex items-start gap-4">
+            <span class="shrink-0 w-8 h-8 rounded-full bg-amber-400 flex items-center justify-center text-xs font-black text-neutral-950 mt-0.5" aria-hidden="true">4</span>
+            <div>
+              <h2 id="section-contact" class="text-lg font-bold text-neutral-950 mb-2">Contact Us</h2>
+              <p class="text-neutral-600 leading-relaxed">
+                If you have any questions about this Privacy Policy, please contact us by email:
+                <a href="mailto:contato@idea36labs.com"
+                  class="font-semibold text-amber-500 hover:text-amber-600 transition-colors">
+                  contato@idea36labs.com
+                </a>.
+              </p>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- Back link -->
+      <div class="mt-14">
+        <a href="../index.html"
+          class="inline-flex items-center gap-2 text-sm font-medium text-neutral-500 hover:text-neutral-950 transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M19 12H5M12 5l-7 7 7 7" />
+          </svg>
+          Back to Idea36 Labs
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════ -->
+  <footer class="border-t border-neutral-100 bg-white">
+    <div
+      class="max-w-4xl mx-auto px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-400">
+      <!-- Brand -->
+      <div class="flex items-center gap-2">
+        <img src="../assets/images/idea36labs_logo.png" alt="Idea36 Labs Logo" class="w-5 h-5 object-contain"
+          aria-hidden="true">
+        <span class="font-semibold text-neutral-600">Idea36 Labs</span>
+        <span>·</span>
+        <span>© 2026. All rights reserved.</span>
+      </div>
+      <!-- Contact -->
+      <a href="mailto:contato@idea36labs.com"
+        class="text-neutral-500 hover:text-amber-500 transition-colors font-medium"
+        aria-label="Send email to contato@idea36labs.com">
+        contato@idea36labs.com
+      </a>
+    </div>
+  </footer>
+
 </body>
+
 </html>
